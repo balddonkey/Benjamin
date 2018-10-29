@@ -1,0 +1,20 @@
+#permission {
+  height: 100%;
+  background-color: lightgray;
+  justify-content: space-around;
+}
+
+.header {
+  margin-right: -20px;
+  overflow: hidden;
+}
+
+.header .item {
+  float: left;
+  height: 100px;
+  width: 10%;
+  padding-right: 20px;
+  box-sizing: border-box;
+  background-clip: content-box;
+  text-align: center;
+}
