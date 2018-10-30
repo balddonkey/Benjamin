@@ -1,20 +1,17 @@
 #permission {
-  height: 100%;
-  background-color: lightgray;
-  justify-content: space-around;
+    height: 100%;
+    background-color: white;
 }
 
-.header {
-  margin-right: -20px;
-  overflow: hidden;
-}
-
-.header .item {
-  float: left;
-  height: 100px;
-  width: 10%;
-  padding-right: 20px;
-  box-sizing: border-box;
-  background-clip: content-box;
-  text-align: center;
+#permission .table {
+    display: table;
+    width: 100%;
+    min-width: 400px;
+    height: 700px;
+    table-layout: fixed;
+    background-color: white;
+    list-style-type: none;
+    padding-inline-start: 0;
+    border-collapse: collapse;
+    box-shadow: 0 0 5px 1px #9999;
 }

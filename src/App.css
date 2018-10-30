@@ -1,7 +1,9 @@
-
 #App {
-  background-color: #daddde;
-  height: 100%;
-  box-sizing: border-box;
-  overflow: hidden;
+    background-color: #daddde;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#App .manage {
+    padding: 20px;
 }

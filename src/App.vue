@@ -1,6 +1,8 @@
 <template>
   <div id="App">
-    <manage v-bind:data="data"/>
+    <div class="manage">
+      <manage v-bind:data="data"/>
+    </div>
   </div>
 </template>
 
@@ -25,6 +27,94 @@ export default {
           "编辑"
         ],
         manages: [
+          {
+            name: "老驴0",
+            id: 0,
+            control: 1,
+            modify: 1,
+            strategy: 1,
+            report: 1,
+            manageAdd: 0,
+            authorizer: "老马0",
+            addTime: '2018-02-31'
+          },
+          {
+            name: "老驴1",
+            id: 1,
+            control: 1,
+            modify: 1,
+            strategy: 1,
+            report: 1,
+            manageAdd: 0,
+            authorizer: "老马1",
+            addTime: '2018-02-31'
+          },
+          {
+            name: "老驴0",
+            id: 0,
+            control: 1,
+            modify: 1,
+            strategy: 1,
+            report: 1,
+            manageAdd: 0,
+            authorizer: "老马0",
+            addTime: '2018-02-31'
+          },
+          {
+            name: "老驴1",
+            id: 1,
+            control: 1,
+            modify: 1,
+            strategy: 1,
+            report: 1,
+            manageAdd: 0,
+            authorizer: "老马1",
+            addTime: '2018-02-31'
+          },
+          {
+            name: "老驴0",
+            id: 0,
+            control: 1,
+            modify: 1,
+            strategy: 1,
+            report: 1,
+            manageAdd: 0,
+            authorizer: "老马0",
+            addTime: '2018-02-31'
+          },
+          {
+            name: "老驴1",
+            id: 1,
+            control: 1,
+            modify: 1,
+            strategy: 1,
+            report: 1,
+            manageAdd: 0,
+            authorizer: "老马1",
+            addTime: '2018-02-31'
+          },
+          {
+            name: "老驴0",
+            id: 0,
+            control: 1,
+            modify: 1,
+            strategy: 1,
+            report: 1,
+            manageAdd: 0,
+            authorizer: "老马0",
+            addTime: '2018-02-31'
+          },
+          {
+            name: "老驴1",
+            id: 1,
+            control: 1,
+            modify: 1,
+            strategy: 1,
+            report: 1,
+            manageAdd: 0,
+            authorizer: "老马1",
+            addTime: '2018-02-31'
+          },
           {
             name: "老驴0",
             id: 0,
