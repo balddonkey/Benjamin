@@ -1,5 +1,5 @@
 /* Table style */
-.table {
+.manage-table {
   position: relative;
   width: 100%;
   min-width: 400px;
@@ -10,9 +10,10 @@
   background-color: lightblue;
   border-collapse: collapse;
   box-shadow: 0 0 5px 1px #9999;
+  background-color: white;
 }
 
-.table .manage-text {
+.manage-table .manage-text {
   font-size: .9rem;
   /* line-height: 26px; */
   margin: auto 0;
@@ -27,7 +28,7 @@
 }
 
 /* Head style */
-.table .manage-head {
+.manage-table .manage-head {
   display: flex;
   height: 80px;
   width: 100%;
@@ -36,7 +37,7 @@
   border-bottom: 1px solid lightgray;
 }
 
-.table .manage-list-box {
+.manage-table .manage-list-box {
   position: absolute;
   top: 100px;
   left: 0px;
@@ -44,7 +45,7 @@
   bottom: 64px;
 }
 
-.table .manage-list {
+.manage-table .manage-list {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -56,24 +57,22 @@
   width: 100%;
 }
 /* Row style */
-.table .manage-row {
+.manage-table .manage-row {
   display: flex;
   height: 80px;
   width: 100%;
   /* flex-direction: column; */
   justify-content: space-around;
   border-bottom: 1px solid lightgray;
-  background-color: white;
 }
 
-.table .manage-foot {
+.manage-table .manage-foot {
   display: flex;
   height: 64px;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: lightyellow;
   justify-content: flex-end;
   padding: auto;
   padding-right: 20px;
@@ -81,9 +80,13 @@
 
 /* Media放在其他样式下面，防止被覆盖 */
 @media screen and (max-width: 750px) {
-  .table .hidden {
+  .manage-table .hidden {
       display: none;
   }
+}
+
+.page-control {
+  display: flex;
 }
 
 /* 普通样式 */

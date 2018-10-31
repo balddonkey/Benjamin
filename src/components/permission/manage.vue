@@ -1,5 +1,5 @@
 <template>
-  <div class='table'>
+  <div class='manage-table'>
     <tHeader :data="data.titles" />
     <div class="manage-list-box">
   

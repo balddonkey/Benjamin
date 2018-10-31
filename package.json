@@ -7,6 +7,8 @@
     "start": "webpack-dev-server --content-base build --inline --hot"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jQuery": "^1.7.4",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
@@ -14,9 +16,11 @@
   "devDependencies": {
     "autoprefixer": "^9.3.1",
     "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "postcss-loader": "^3.0.0",
+    "raw-loader": "^0.5.1",
     "vue-loader": "^15.4.2",
     "vue-template-compiler": "^2.5.17",
     "vue-template-loader": "^1.0.0",

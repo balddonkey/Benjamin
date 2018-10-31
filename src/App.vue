@@ -1,5 +1,7 @@
 <template>
   <div id="App">
+    <div id="nav"></div>
+    <div id="split"></div>
     <div class="content">
       <div class="container">
         <manage v-bind:data="data"/>
@@ -10,6 +12,8 @@
 
 <script>
 import manage from "@permission/manage.vue";
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.js'
 
 export default {
   name: "App",

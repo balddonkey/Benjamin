@@ -1,11 +1,13 @@
 <template>
   <div class="manage-foot">
-    <div class="button-small">3</div>
-    <div class="button-small">2</div>
-    <div class="button-small">1</div>
+    <span class="page-control">
+      <span class="button-small">1</span>
+      <span class="button-small">2</span>
+      <span class="button-small">3</span>
+    </span>
   </div>
 </template>
 
 <style>
-@import "./manage_table.css";
+  @import "./manage_table.css";
 </style>
