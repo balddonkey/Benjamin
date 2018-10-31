@@ -1,5 +1,5 @@
 <template>
-  <tfoot class="manage-foot">
+  <div class="manage-foot">
     <a>foot</a>
-  </tfoot>
+  </div>
 </template>

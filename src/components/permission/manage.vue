@@ -1,16 +1,16 @@
 <template>
   <div id='permission'>
-    <table class='table' v-if="data.manages.length">
+    <div class='table' v-if="data.manages.length">
       <tHeader :data="data.titles" />
-      <tFooter />
-      <tbody class="row-group">
+      <div style="display: table-row-group">
         <tItem 
           v-for="(manage, index) in data.manages" 
           :key="index" 
           :manage="manage"
         />
-      </tbody>
-    </table>
+       </div>
+      <tFooter />
+    </div>
   </div>
 </template>
 <script>
