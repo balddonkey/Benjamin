@@ -1,66 +1,102 @@
 /* Table style */
 .table {
-  /* display: table; */
+  position: relative;
   width: 100%;
   min-width: 400px;
-  height: 700px;
-  table-layout: fixed;
-  background-color: white;
-  list-style-type: none;
-  padding-inline-start: 0;
+  padding: 20px 0 0;
+  margin: 0 0 auto;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: lightblue;
   border-collapse: collapse;
   box-shadow: 0 0 5px 1px #9999;
 }
 
+.table .manage-text {
+  font-size: .9rem;
+  /* line-height: 26px; */
+  margin: auto 0;
+  max-height: 52px;
+  overflow: hidden;
+  padding: 0 10px;
+  text-align: center;
+  text-overflow: ellipsis;
+  width: 75px;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
 /* Head style */
-.manage-head {
-  /* display: table-header-group; */
+.table .manage-head {
   display: flex;
-  width: 100%;
-  border-bottom: 1px solid lightgray;
-  justify-content: space-between;
-}
-
-.manage-head .item {
   height: 80px;
-  /* display: table-cell; */
-  text-align: center;
-  font-weight: normal;
-  vertical-align: middle;
-  color: #333;
-  font-size: 16px;
+  width: 100%;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  border-bottom: 1px solid lightgray;
 }
 
+.table .manage-list-box {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  right: 0px;
+  bottom: 64px;
+}
+
+.table .manage-list {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 100%;
+}
 /* Row style */
-.manage-row {
-  display: table-row;
+.table .manage-row {
   display: flex;
-  justify-content: space-between; 
   height: 80px;
   width: 100%;
+  /* flex-direction: column; */
+  justify-content: space-around;
   border-bottom: 1px solid lightgray;
+  background-color: white;
 }
 
-.manage-row .item {
-  max-height: 80px;
-  margin: 20px;
-  /* display: table-cell; */
-  text-align: center;
-  vertical-align: middle;
-  color: #555;
-  font-size: 14px;
-}
-
-/* Foot style */
-#manage-foot {
-  display: table-footer-group;
-  margin-right: 0;
+.table .manage-foot {
+  display: flex;
+  height: 64px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: lightyellow;
+  justify-content: flex-end;
+  padding: auto;
+  padding-right: 20px;
 }
 
 /* Media放在其他样式下面，防止被覆盖 */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 750px) {
   .table .hidden {
       display: none;
   }
+}
+
+/* 普通样式 */
+.button-small {
+  max-width: 30px;
+  max-height: 30px;
+  margin: auto 0;
+  /* background-color: green; */
+  padding: 0 10px;
+  text-align: center;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  word-wrap: break-word;
+  cursor: pointer;
 }
 

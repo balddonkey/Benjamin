@@ -1,6 +1,8 @@
 <template>
   <div class="manage-foot">
-    <a>foot</a>
+    <div class="button-small">3</div>
+    <div class="button-small">2</div>
+    <div class="button-small">1</div>
   </div>
 </template>
 

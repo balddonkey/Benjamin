@@ -1,18 +1,18 @@
 <template>
   <div class="manage-row">
-    <div class="item">{{manage.name}}</div>
-    <div class="item">{{manage.id}}</div>
-    <div class="item hidden">{{manage.control}}</div>
-    <div class="item hidden">{{manage.modify}}</div>
-    <div class="item hidden">{{manage.strategy}}</div>
-    <div class="item hidden">{{manage.report}}</div>
-    <div class="item hidden">{{manage.manageAdd}}</div>
-    <div class="item hidden">{{manage.authorizer}}</div>
-    <div class="item">{{manage.addTime}}</div>
-    <div class="item">
+    <a class="manage-text">{{manage.name}}</a>
+    <a class="manage-text">{{manage.id}}</a>
+    <a class="manage-text hidden">{{manage.control}}</a>
+    <a class="manage-text hidden">{{manage.modify}}</a>
+    <a class="manage-text hidden">{{manage.strategy}}</a>
+    <a class="manage-text hidden">{{manage.report}}</a>
+    <a class="manage-text hidden">{{manage.manageAdd}}</a>
+    <a class="manage-text hidden">{{manage.authorizer}}</a>
+    <a class="manage-text" >{{manage.addTime}}</a>
+    <a class="manage-text" >
       <a href="about:blank">编辑</a>
       <a href="about:blank">删除</a>
-    </div>
+    </a>
   </div>
 </template>
 
