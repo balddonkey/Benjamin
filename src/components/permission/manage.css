@@ -2,16 +2,3 @@
     height: 100%;
     background-color: white;
 }
-
-#permission .table {
-    display: table;
-    width: 100%;
-    min-width: 400px;
-    height: 700px;
-    table-layout: fixed;
-    background-color: white;
-    list-style-type: none;
-    padding-inline-start: 0;
-    border-collapse: collapse;
-    box-shadow: 0 0 5px 1px #9999;
-}

@@ -2,7 +2,7 @@
   <div id='permission'>
     <div class='table' v-if="data.manages.length">
       <tHeader :data="data.titles" />
-      <div style="display: table-row-group">
+      <div>
         <tItem 
           v-for="(manage, index) in data.manages" 
           :key="index" 
@@ -32,4 +32,5 @@ export default {
 
 <style>
 @import "./manage.css";
+@import "./manage_table.css";
 </style>

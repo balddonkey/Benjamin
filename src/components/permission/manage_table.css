@@ -1,0 +1,66 @@
+/* Table style */
+.table {
+  /* display: table; */
+  width: 100%;
+  min-width: 400px;
+  height: 700px;
+  table-layout: fixed;
+  background-color: white;
+  list-style-type: none;
+  padding-inline-start: 0;
+  border-collapse: collapse;
+  box-shadow: 0 0 5px 1px #9999;
+}
+
+/* Head style */
+.manage-head {
+  /* display: table-header-group; */
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+}
+
+.manage-head .item {
+  height: 80px;
+  /* display: table-cell; */
+  text-align: center;
+  font-weight: normal;
+  vertical-align: middle;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Row style */
+.manage-row {
+  display: table-row;
+  display: flex;
+  justify-content: space-between; 
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+.manage-row .item {
+  max-height: 80px;
+  margin: 20px;
+  /* display: table-cell; */
+  text-align: center;
+  vertical-align: middle;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Foot style */
+#manage-foot {
+  display: table-footer-group;
+  margin-right: 0;
+}
+
+/* Media放在其他样式下面，防止被覆盖 */
+@media screen and (max-width: 450px) {
+  .table .hidden {
+      display: none;
+  }
+}
+
