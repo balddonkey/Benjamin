@@ -4,7 +4,7 @@
 }
 
 #permission .table {
-    display: table;
+    /* display: table; */
     width: 100%;
     min-width: 400px;
     height: 700px;
@@ -14,4 +14,9 @@
     padding-inline-start: 0;
     border-collapse: collapse;
     box-shadow: 0 0 5px 1px #9999;
+}
+
+.table .row-group {
+    overflow-y: scroll;
+    /* display: table-row-group; */
 }
