@@ -32,4 +32,5 @@ export default {
 
 <style>
 @import "./manage.css";
+@import "./manage_table.css";
 </style>

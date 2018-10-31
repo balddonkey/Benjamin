@@ -1,6 +1,5 @@
 <template>
-  <tbody class="manage-row">
-    <tr>
+  <tr class="manage-row">
     <td class="item">{{manage.name}}</td>
     <td class="item">{{manage.id}}</td>
     <td class="item hidden">{{manage.control}}</td>
@@ -14,8 +13,7 @@
       <a href="about:blank">编辑</a>
       <a href="about:blank">删除</a>
     </td>
-    </tr>
-  </tbody>
+  </tr>
 </template>
 
 <script>
@@ -29,4 +27,5 @@ export default {
 
 <style>
 @import "./manage_item.css";
+@import "./manage_table.css";
 </style>

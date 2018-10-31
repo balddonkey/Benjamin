@@ -1,16 +1,16 @@
 <template>
   <thead class="manage-head">
     <tr>
-    <th class="item">姓名</th>
-    <th class="item">密码</th>
-    <th class="hidden-item">实时控制</th>
-    <th class="hidden-item">分组修改</th>
-    <th class="hidden-item">策略制定</th>
-    <th class="hidden-item">报表查看</th>
-    <th class="hidden-item">管理人员添加</th>
-    <th class="hidden-item">授权人</th>
-    <th class="item">添加时间</th>
-    <th class="item">编辑</th>
+    <td class="item">姓名</td>
+    <td class="item">密码</td>
+    <td class="item hidden">实时控制</td>
+    <td class="item hidden">分组修改</td>
+    <td class="item hidden">策略制定</td>
+    <td class="item hidden">报表查看</td>
+    <td class="item hidden">管理人员添加</td>
+    <td class="item hidden">授权人</td>
+    <td class="item">添加时间</td>
+    <td class="item">编辑</td>
     </tr>
   </thead>
 </template>
@@ -26,5 +26,6 @@ export default {
 
 <style>
 @import "./manage_head.css";
+@import "./manage_table.css";
 </style>
 

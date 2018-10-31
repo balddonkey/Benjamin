@@ -6,4 +6,5 @@
 
 #App .manage {
     padding: 20px;
+    overflow: scroll;
 }

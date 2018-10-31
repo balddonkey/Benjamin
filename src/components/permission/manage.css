@@ -4,9 +4,8 @@
 }
 
 #permission .table {
-    /* display: table; */
     width: 100%;
-    min-width: 400px;
+    min-width: 300px;
     height: 700px;
     table-layout: fixed;
     background-color: white;
@@ -18,5 +17,4 @@
 
 .table .row-group {
     overflow-y: scroll;
-    /* display: table-row-group; */
 }

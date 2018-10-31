@@ -5,26 +5,14 @@
 
 .manage-head .item {
     height: 80px;
-    /* display: table-cell; */
     text-align: center;
-    font-weight: normal;
-    /* vertical-align: middle; */
+    vertical-align: middle;
     color: #333;
     font-size: 16px;
 }
 
-.manage-head .hidden-item {
-    max-height: 80px;
-    margin: 20px;
-    /* display: table-cell; */
-    text-align: center;
-    /* vertical-align: middle; */
-    color: #555;
-    font-size: 14px;
-}
-
-@media screen and (max-width: 750px) {
-    .manage-head .hidden-item {
+@media screen and (max-width: 550px) {
+    .manage-head .hidden {
         display: none;
     }
 }
