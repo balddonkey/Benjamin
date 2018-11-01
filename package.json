@@ -7,12 +7,18 @@
     "start": "webpack-dev-server --content-base build --inline --hot"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "jquery": "1.9.1",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0",
     "autoprefixer": "^9.3.1",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.4",
     "css-loader": "^1.0.0",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
