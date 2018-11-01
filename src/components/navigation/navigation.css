@@ -1,0 +1,12 @@
+
+.app-navigator {
+  box-shadow: 0 0 5px 2px #9999;
+  height: 64px;
+}
+
+.navigator .brand {
+  background-color: #56c0da;
+  height: 100%;
+  line-height: 54px;
+  color: white;
+}

@@ -36,7 +36,8 @@ module.exports = {
     resolve: {
         alias: {
             "@components": path.resolve(__dirname, 'src/components'),
-            "@permission": path.resolve(__dirname, 'src/components/permission')
+            "@navigation": path.resolve(__dirname, 'src/components/navigation'),
+            "@permission": path.resolve(__dirname, 'src/components/permission'),
         }
     },
     devServer: {
